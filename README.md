@@ -1,4 +1,4 @@
-# onePieceBeardParallaxScrolling
+# onePieceBeardScrollingAnimate
 
 https://user-images.githubusercontent.com/52046972/144697410-68d89d73-4efe-47b9-b733-3d77a4afd81c.mp4
 

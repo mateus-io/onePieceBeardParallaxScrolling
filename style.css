@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151515;
+  min-height: 100vh;
+}
+
+.beard-container {
+  width: 506px;
+  height: 720px;
+  position: fixed;
+  top: 20px;
+}
+
+.beard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.white-beard {
+  background: center / cover no-repeat url('./whitebeard.png');
+  z-index: 2;
+}
+
+.black-beard {
+  background: center / cover no-repeat url('./blackbeard.png');
+  z-index: 1;
+}
+
+.fake-scroll {
+  height: 1768px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f6ce9c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d5aa7e;
+}
